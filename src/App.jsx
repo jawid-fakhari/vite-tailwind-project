@@ -36,6 +36,27 @@ function App() {
           rotate-45
         </h3>
       </div>
+      {/* flex  */}
+      <div className="bg-gray-900 h-96 flex justify-between items-center">
+        <div className="bg-orange-500 size-32">flex</div>
+        <div className="bg-orange-500 size-32">flex</div>
+        <div className="bg-orange-500 size-32">flex</div>
+        <div className="bg-orange-500 size-32">flex</div>
+      </div>
+      {/* flex basis */}
+      <div className="bg-gray-900 h-96 flex flex-row">
+        <div className="bg-orange-600 h-32 basis-3/12">flex</div>
+        <div className="bg-orange-700 h-32 basis-3/12">flex</div>
+        <div className="bg-orange-800 h-32 basis-3/12">flex</div>
+        <div className="bg-orange-900 h-32 basis-3/12">flex</div>
+      </div>
+      {/* grid */}
+      <div className="bg-gray-900 h-96 grid grid-cols-4 gap-4">
+        <div className="bg-orange-600 h-20 col-span-3">grid</div>
+        <div className="bg-orange-700 h-20 col-span-1">grid</div>
+        <div className="bg-orange-800 h-20 col-span-1">grid</div>
+        <div className="bg-orange-900 h-20 col-span-3">grid</div>
+      </div>
     </>
   )
 }
