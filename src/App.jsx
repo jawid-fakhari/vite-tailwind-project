@@ -12,6 +12,30 @@ function App() {
       <div className="container">
         <h2 className="rounded shadow text-center font-bold text-2xl bg-gray-300">Our products</h2>
       </div>
+      {/* overflow */}
+      <div className="bg-zinc-500 h-12 w-12 overflow-auto">
+        <h3 className="bg-amber-200 w-24">
+          Overflow
+        </h3>
+      </div>
+      {/* positions */}
+      <div className="bg-zinc-500 h-20 overflow-auto relative">
+        <h3 className="bg-amber-200 w-60 absolute right-0 bottom-0">
+          Position fixed, absolute, ...
+        </h3>
+      </div>
+      {/* opacity  */}
+      <div className="bg-zinc-500 h-20 overflow-auto relative">
+        <h3 className="bg-red-800 w-60 absolute right-0 bottom-0 opacity-50">
+          opacity-50
+        </h3>
+      </div>
+      {/* rotate  */}
+      <div className="bg-zinc-500 h-20 overflow-auto relative">
+        <h3 className="bg-green-500 w-60 absolute right-0 bottom-0 rotate-12">
+          rotate-45
+        </h3>
+      </div>
     </>
   )
 }
