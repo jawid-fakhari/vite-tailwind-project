@@ -57,6 +57,13 @@ function App() {
         <div className="bg-orange-800 h-20 col-span-1">grid</div>
         <div className="bg-orange-900 h-20 col-span-3">grid</div>
       </div>
+      {/* Responsive */}
+      <div className="bg-gray-900 h-96 grid grid-cols-12 gap-4">
+        <div className="bg-orange-600 h-20 col-span-12 sm:col-span-6 md:col-span-3">Responsive</div>
+        <div className="bg-orange-700 h-20 col-span-12 sm:col-span-6 md:col-span-3">Responsive</div>
+        <div className="bg-orange-800 h-20 col-span-12 sm:col-span-6 md:col-span-3">Responsive</div>
+        <div className="bg-orange-900 h-20 col-span-12 sm:col-span-6 md:col-span-3">Responsive</div>
+      </div>
     </>
   )
 }
